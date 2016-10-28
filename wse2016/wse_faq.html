@@ -13,6 +13,18 @@
 <h1>FQA for WSE2016 Hands-on Assignment</h1>
 </div>
 <ul>
+<li>
+Launching the VM rebooted my pc (!). <br/ >
+When you use Windows 10 Anniversary: <br/ >
+1) Install Linux Subsystem (<a href="https://msdn.microsoft.com/en-us/commandline/wsl/install_guide">https://msdn.microsoft.com/en-us/commandline/wsl/install_guide</a>) <br/ >
+2) Install Ruby (sudo apt-get ruby) <br/ >
+3) Install Twurl (sudo gem install twurl) <br/ >
+4) Use twurl, authorize etc. <br/ >
+(contributed by Thom Hubers)
+</li>
+</ul>
+
+<ul>
 <li><p>While generating the tweets from &ldquo;dev.twitter.com/streaming/reference/get/statuses/sample&rdquo; I have got two types of data: &ldquo;created_at&rdquo; and &ldquo;delete&rdquo; (which contains very less information). Is this correct? And if yes, do we have to filter the &ldquo;delete&rdquo; data or count this as a tweet? (for Question 3, part 1.2) <br /><br />
 Answer: It means that the tweet was deleted. See reference here:
 <a href="https://dev.twitter.com/streaming/overview/messages-types#status_deletion_notices_delete">status deletion notices delete</a><br />
