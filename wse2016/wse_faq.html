@@ -12,10 +12,19 @@
 <div id="toptitle">
 <h1>FQA for WSE2016 Hands-on Assignment</h1>
 </div>
+
 <ul>
 <li>
-Launching the VM rebooted my pc (!). <br/ >
-When you use Windows 10 Anniversary: <br/ >
+Question: when I run 'twurl -H stream.twitter.com/1.1/statuses/sample.json > tweets.json' the 'tweets.json' file does not store tweeets but some command help messagse. <br /><br />
+
+Answer: Please add a space between the domain name and endpoint URL, i.e. between "stream.twitter.com" and "/1.1/statuses/sample.json". 
+</li>
+</ul>
+<ul>
+<li>
+Question: Launching the VM rebooted my pc (!). <br/ ><br />
+
+Answer: When you use Windows 10 Anniversary: <br/ >
 1) Install Linux Subsystem (<a href="https://msdn.microsoft.com/en-us/commandline/wsl/install_guide">https://msdn.microsoft.com/en-us/commandline/wsl/install_guide</a>) <br/ >
 2) Install Ruby (sudo apt-get ruby) <br/ >
 3) Install Twurl (sudo gem install twurl) <br/ >
