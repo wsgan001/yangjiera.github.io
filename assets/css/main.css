@@ -1587,7 +1587,8 @@
 		background-color: #fff;
 		color: #111111;
 		margin: auto;
-		width: 58em;
+		width: 80%;
+		max-width: 58em;
 	}
 
 	body, input, select, textarea {
